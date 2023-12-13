@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-13T16:15:50.529Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="kS3uVFr7Jinqd86I7HJ7" version="21.7.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-13T16:19:41.394Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="Aq55wPLDQaMMsYcNj1Fh" version="21.7.5" type="github">
   <diagram id="7hVb7ib1BImvii1vWPBc" name="Page-1">
     <mxGraphModel dx="1434" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -55,7 +55,10 @@
         <mxCell id="3BNdl_GEFzRhaG3r9pQ4-12" value="EfficientNet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="200" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="3BNdl_GEFzRhaG3r9pQ4-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3BNdl_GEFzRhaG3r9pQ4-16" target="3BNdl_GEFzRhaG3r9pQ4-21">
+        <mxCell id="3BNdl_GEFzRhaG3r9pQ4-22" value="penelitian lain" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3BNdl_GEFzRhaG3r9pQ4-16" target="3BNdl_GEFzRhaG3r9pQ4-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3BNdl_GEFzRhaG3r9pQ4-43" value="modifikasinya berupa" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3BNdl_GEFzRhaG3r9pQ4-16" target="3BNdl_GEFzRhaG3r9pQ4-42">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3BNdl_GEFzRhaG3r9pQ4-16" value="EfficientDet-lite" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -122,6 +125,9 @@
         </mxCell>
         <mxCell id="3BNdl_GEFzRhaG3r9pQ4-38" value="NAS FPN" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="510" y="560" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3BNdl_GEFzRhaG3r9pQ4-42" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Input layer size&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Relu6 act. function&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="520" y="180" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
