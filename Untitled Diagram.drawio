@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-14T15:59:40.556Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="U-0V1Ep-5gqzDo3YXggM" version="22.1.8" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2023-12-14T16:13:27.225Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0" etag="Vbxi30wuYakRwey2Zbo0" version="22.1.8" type="github" pages="2">
   <diagram id="7hVb7ib1BImvii1vWPBc" name="Page-1">
-    <mxGraphModel dx="1434" dy="845" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="1672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,6 +8,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3BNdl_GEFzRhaG3r9pQ4-17" value="dimodifikasi untuk mobile dan edge" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="3BNdl_GEFzRhaG3r9pQ4-1" target="3BNdl_GEFzRhaG3r9pQ4-16" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UB0eaC266-DqpEr_QdM3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="3BNdl_GEFzRhaG3r9pQ4-1" target="3BNdl_GEFzRhaG3r9pQ4-20">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="3BNdl_GEFzRhaG3r9pQ4-1" value="EfficientDet" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -74,7 +77,7 @@
           <mxGeometry x="510" y="440" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3BNdl_GEFzRhaG3r9pQ4-20" value="Compound Scaling" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="200" y="460" width="120" height="60" as="geometry" />
+          <mxGeometry x="40" y="200" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="3BNdl_GEFzRhaG3r9pQ4-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="3BNdl_GEFzRhaG3r9pQ4-21" target="3BNdl_GEFzRhaG3r9pQ4-23" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -128,6 +131,64 @@
         </mxCell>
         <mxCell id="3BNdl_GEFzRhaG3r9pQ4-42" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;&lt;/blockquote&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Input layer size&lt;/span&gt;&lt;br&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Relu6 act. function&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" parent="1" vertex="1">
           <mxGeometry x="520" y="180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UB0eaC266-DqpEr_QdM3-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UB0eaC266-DqpEr_QdM3-2" target="3BNdl_GEFzRhaG3r9pQ4-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UB0eaC266-DqpEr_QdM3-2" value="Tensorflow lite" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UB0eaC266-DqpEr_QdM3-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UB0eaC266-DqpEr_QdM3-4" target="UB0eaC266-DqpEr_QdM3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UB0eaC266-DqpEr_QdM3-4" value="Tensorflow" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UB0eaC266-DqpEr_QdM3-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UB0eaC266-DqpEr_QdM3-6" target="UB0eaC266-DqpEr_QdM3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UB0eaC266-DqpEr_QdM3-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UB0eaC266-DqpEr_QdM3-6" target="UB0eaC266-DqpEr_QdM3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UB0eaC266-DqpEr_QdM3-6" value="Deep Learning&lt;br&gt;Framework" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UB0eaC266-DqpEr_QdM3-8" value="Pytorch" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="-160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UB0eaC266-DqpEr_QdM3-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UB0eaC266-DqpEr_QdM3-10" target="UB0eaC266-DqpEr_QdM3-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="-30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UB0eaC266-DqpEr_QdM3-13" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UB0eaC266-DqpEr_QdM3-10" target="UB0eaC266-DqpEr_QdM3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UB0eaC266-DqpEr_QdM3-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UB0eaC266-DqpEr_QdM3-10" target="UB0eaC266-DqpEr_QdM3-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UB0eaC266-DqpEr_QdM3-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UB0eaC266-DqpEr_QdM3-10" target="UB0eaC266-DqpEr_QdM3-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UB0eaC266-DqpEr_QdM3-10" value="Smartphone&lt;br&gt;(Android)" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="250" y="-260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UB0eaC266-DqpEr_QdM3-12" value="Pendeteksian Obyek" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="-160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UB0eaC266-DqpEr_QdM3-15" value="&#39;Mini Computer&#39;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UB0eaC266-DqpEr_QdM3-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="UB0eaC266-DqpEr_QdM3-17" target="UB0eaC266-DqpEr_QdM3-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="UB0eaC266-DqpEr_QdM3-17" value="Smart city" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="-260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="UB0eaC266-DqpEr_QdM3-18" value="Transportasi" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="-160" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
